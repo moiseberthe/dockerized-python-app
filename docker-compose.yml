@@ -4,6 +4,14 @@ services:
     mongo:
         image: mongo
 
+    client:
+        image: mlops-client
+        build:
+            context: ./client
+            dockerfile: Dockerfile
+        ports:
+        - 8501:8501
+    
     server:
         image: mlops-server
         build:
