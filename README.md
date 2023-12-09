@@ -1,5 +1,3 @@
-# m2sise-mlops
-
 # Docker project with Streamlit, FastAPI and MongoDB
 
 This project is a demonstration of using Docker Compose to run a `Python` application consisting of `Streamlit`, `FastAPI`, and `MongoDB` in `Docker` containers.<br>
