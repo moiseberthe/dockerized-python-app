@@ -18,7 +18,7 @@ Make sure you have `Docker` and `Docker Compose` installed on your machine.
 
 - `client/`: Application Streamlit
 - `server/`: Application FastAPI
-- `utils/`: Classification `iris` et `Penguins`
+- `utils/`: Classification `iris` et `penguins`
 
 ## Docker setup
 The Docker files (`client/Dockerfile` and `server/Dockerfile`) contain the build configurations for the Streamlit and FastAPI services.<br>
