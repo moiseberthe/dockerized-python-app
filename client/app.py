@@ -1,5 +1,4 @@
 import streamlit as st
-import json
 import requests
 
 with st.form("Insert fruit"):
@@ -17,7 +16,7 @@ with st.form("Insert fruit"):
         st.write(fruits.json())
     
 with st.form("Predict Iris"):
-    st.write("Prediction")
+    st.write("Prédiction Iris")
     
     sepal_length = st.slider('Sepal length', 0, 10, 0)
     sepal_width = st.slider('Sepal width', 0, 10, 0)
@@ -25,16 +24,15 @@ with st.form("Predict Iris"):
     petal_length = st.slider('Petal length', 0, 10, 0)
     petal_width = st.slider('Petal width', 0, 10, 0)
 
-    # Every form must have a submit button.
     submitter = st.form_submit_button("Predict")
 
     if submitter:
         # call api
-        prediction = requests.post(f"http://server:8000/predict/{sepal_length}/{sepal_width}/{petal_length}/{petal_width}")
+        prediction = requests.get(f"http://server:8000/predict/iris/{sepal_length}/{sepal_width}/{petal_length}/{petal_width}")
         st.write(prediction.json())
 
 with st.form("Predict Penguin"):
-    st.write("Prediction")
+    st.write("Prédiction Penguins")
     
     island = st.selectbox(
         'Island',
@@ -54,5 +52,5 @@ with st.form("Predict Penguin"):
 
     if submitter:
         # call api
-        prediction = requests.post(f"http://server:8000/predict_penguins/{island}/{bill_length_mm}/{bill_depth_mm}/{flipper_length_mm}/{body_mass_g}/{sex}")
+        prediction = requests.get(f"http://server:8000/predict/penguins/{island}/{bill_length_mm}/{bill_depth_mm}/{flipper_length_mm}/{body_mass_g}/{sex}")
         st.write(prediction.json())
