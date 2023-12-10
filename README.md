@@ -4,6 +4,9 @@ This project is a demonstration of using Docker Compose to run a `Python` applic
 <p align="center">
   <img align="center" alt="Gif" width="500" src="https://github.com/moiseberthe/m2sise-mlops/assets/75121872/77cc1f84-0629-4cbd-87a4-47edc98451e7">
 </p>
+<p align="center">
+  <img align="center" alt="Gif" width="500" src="https://github.com/moiseberthe/m2sise-mlops/assets/75121872/fc90e9fc-63d7-400e-bbea-ee5a8364b7cf">
+</p>
 
 ## Prerequisites
 
