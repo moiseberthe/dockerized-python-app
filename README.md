@@ -15,6 +15,12 @@ Make sure you have `Docker` and `Docker Compose` installed on your machine.
 - [Docker](https://www.docker.com/get-started)
 - [Docker Compose](https://docs.docker.com/compose/install/)
 
+## Clone project
+
+```bash
+git clone https://github.com/moiseberthe/dockerized-python-app.git
+```
+
 ## Project structure
 
 - `client/`: Application Streamlit
