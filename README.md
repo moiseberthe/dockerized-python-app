@@ -2,7 +2,7 @@
 
 This project is a demonstration of using Docker Compose to run a `Python` application consisting of `Streamlit`, `FastAPI`, and `MongoDB` in `Docker` containers.<br>
 <p align="center">
-  <img align="center" alt="Gif" width="500" src="https://github.com/moiseberthe/m2sise-mlops/assets/75121872/77cc1f84-0629-4cbd-87a4-47edc98451e7">
+  <!-- <img align="center" alt="Gif" width="500" src="https://github.com/moiseberthe/m2sise-mlops/assets/75121872/77cc1f84-0629-4cbd-87a4-47edc98451e7"> -->
 </p>
 <p align="center">
   <img align="center" alt="Gif" width="500" src="https://github.com/moiseberthe/m2sise-mlops/assets/75121872/fc90e9fc-63d7-400e-bbea-ee5a8364b7cf">
@@ -19,7 +19,7 @@ Make sure you have `Docker` and `Docker Compose` installed on your machine.
 
 - `client/`: Application Streamlit
 - `server/`: Application FastAPI
-- `utils/`: Classification `iris` et `penguins`
+- `utils/`: `iris` and `penguins` classification
 
 ## Docker setup
 The Docker files (`client/Dockerfile` and `server/Dockerfile`) contain the build configurations for the Streamlit and FastAPI services.<br>
