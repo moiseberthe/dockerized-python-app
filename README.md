@@ -25,7 +25,7 @@ git clone https://github.com/moiseberthe/dockerized-python-app.git
 
 - `client/`: Application Streamlit
 - `server/`: Application FastAPI
-- `utils/`: `iris` and `penguins` classification
+- `utils/`: train models for `iris` and `penguins` classification
 
 ## Docker setup
 The Docker files (`client/Dockerfile` and `server/Dockerfile`) contain the build configurations for the Streamlit and FastAPI services.<br>
@@ -47,7 +47,7 @@ The project will be accessible at the following address:
 
 Make sure to adjust the application files (`client/app.py` and `server/app.py`) according to your needs.
 
-## Other commands
+<!-- ## Other commands
 
 Remove all unused images, not just dangling ones.
 
@@ -59,4 +59,4 @@ Push a Docker image to the GitHub Container Registry.
 
 ```bash
 docker push ghcr.io/moiseberthe/mlops:latest
-```
+``` -->
